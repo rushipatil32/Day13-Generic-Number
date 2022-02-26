@@ -1,8 +1,8 @@
 package com.blz.genericnumber;
 
 public class Maximum {
-	public static Float maxFloat(Float a, Float b, Float c) {
-		Float max = a;
+	public static String maxString(String a, String b, String c) {
+		String max = a;
 		if (b.compareTo(max) > 0)
 			max = b;
 		if (c.compareTo(max) > 0)
@@ -14,8 +14,8 @@ public class Maximum {
 		System.out.println("Maximum Value is= " + max);
 		return max;
 	}
-	
 	public static void main(String[] args) {
-		Maximum.maxFloat(5.7f, 6.8f, 7.9f);
+		Maximum.maxString("Mango", "orange", "Banana");
 	}
+
 }
